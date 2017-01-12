@@ -15,6 +15,7 @@ public class App {
 		return -1;
 	}
 	
+	// pass in array to search, index position to start at, number to search for
 	public static int recursiveLinearSearch(int [] a, int i, int x){
 		
 		if (i > a.length - 1) return -1;
